@@ -16,3 +16,21 @@ C:\Users\acer azul\Documents\C# Nivel Intermedio\Sol_CSharo_NivelIntermedio\Pres
 C:\Users\acer azul\Documents\C# Nivel Intermedio\Sol_CSharo_NivelIntermedio\Presentacion\obj\Debug\Presentacion.frm_datagridview.resources
 C:\Users\acer azul\Documents\C# Nivel Intermedio\Sol_CSharo_NivelIntermedio\Presentacion\obj\Debug\Presentacion.frm_principal.resources
 C:\Users\acer azul\Documents\C# Nivel Intermedio\Sol_CSharo_NivelIntermedio\Presentacion\obj\Debug\Presentacion.mdi_principal.resources
+C:\Users\DELL PC\Documents\Sergio\Programas\Curso Nivel Intermedio C#\CursoIntermedioSharp\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\DELL PC\Documents\Sergio\Programas\Curso Nivel Intermedio C#\CursoIntermedioSharp\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\DELL PC\Documents\Sergio\Programas\Curso Nivel Intermedio C#\CursoIntermedioSharp\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\DELL PC\Documents\Sergio\Programas\Curso Nivel Intermedio C#\CursoIntermedioSharp\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\DELL PC\Documents\Sergio\Programas\Curso Nivel Intermedio C#\CursoIntermedioSharp\Presentacion\obj\Debug\Presentacion.frm_datagridview.resources
+C:\Users\DELL PC\Documents\Sergio\Programas\Curso Nivel Intermedio C#\CursoIntermedioSharp\Presentacion\obj\Debug\Presentacion.frm_encuesta.resources
+C:\Users\DELL PC\Documents\Sergio\Programas\Curso Nivel Intermedio C#\CursoIntermedioSharp\Presentacion\obj\Debug\Presentacion.frm_numericupdown.resources
+C:\Users\DELL PC\Documents\Sergio\Programas\Curso Nivel Intermedio C#\CursoIntermedioSharp\Presentacion\obj\Debug\Presentacion.frm_principal.resources
+C:\Users\DELL PC\Documents\Sergio\Programas\Curso Nivel Intermedio C#\CursoIntermedioSharp\Presentacion\obj\Debug\Presentacion.frm_tiempo.resources
+C:\Users\DELL PC\Documents\Sergio\Programas\Curso Nivel Intermedio C#\CursoIntermedioSharp\Presentacion\obj\Debug\Presentacion.frm_TrabajandoComboBox.resources
+C:\Users\DELL PC\Documents\Sergio\Programas\Curso Nivel Intermedio C#\CursoIntermedioSharp\Presentacion\obj\Debug\Presentacion.frm_trackbar.resources
+C:\Users\DELL PC\Documents\Sergio\Programas\Curso Nivel Intermedio C#\CursoIntermedioSharp\Presentacion\obj\Debug\Presentacion.mdi_principal.resources
+C:\Users\DELL PC\Documents\Sergio\Programas\Curso Nivel Intermedio C#\CursoIntermedioSharp\Presentacion\obj\Debug\Presentacion.MiPrimerFormulario.resources
+C:\Users\DELL PC\Documents\Sergio\Programas\Curso Nivel Intermedio C#\CursoIntermedioSharp\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\DELL PC\Documents\Sergio\Programas\Curso Nivel Intermedio C#\CursoIntermedioSharp\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\DELL PC\Documents\Sergio\Programas\Curso Nivel Intermedio C#\CursoIntermedioSharp\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\DELL PC\Documents\Sergio\Programas\Curso Nivel Intermedio C#\CursoIntermedioSharp\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\DELL PC\Documents\Sergio\Programas\Curso Nivel Intermedio C#\CursoIntermedioSharp\Presentacion\obj\Debug\Presentacion.pdb
