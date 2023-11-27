@@ -14,6 +14,7 @@ namespace Datos
         private string Servidor;
         private string Usuario;
         private string Clave;
+        private static CD_Conexion con = null;
         
         private CD_Conexion()
         {
@@ -28,7 +29,7 @@ namespace Datos
             SqlConnection Conexion =  new SqlConnection();
             try
             {
-
+                Conexion.ConnectionString = "Server=" + this.Servidor + "; Database=" + this.Bd + "; User Id=" + this.Usuario + "; Password" + this.Clave;
             }
             catch (Exception ex)
             {
@@ -36,6 +37,15 @@ namespace Datos
                 throw ex;
             }
             return Conexion;
+        }
+
+        public static CD_Conexion GetInsancia()
+        {
+            if(con == null)
+            {
+                con = new CD_Conexion();
+            }
+            return con;
         }
     }
 }
