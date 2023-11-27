@@ -60,5 +60,21 @@ namespace Presentacion
         {
             frm_Trackbar = null;
         }
+
+        private void m_btn_01_Click(object sender, EventArgs e)
+        {
+            if (miPrimerFormulario == null)
+            {
+                miPrimerFormulario = new MiPrimerFormulario();
+                miPrimerFormulario.MdiParent = this;
+                miPrimerFormulario.FormClosed += new FormClosedEventHandler(Alta_frm_01);
+                miPrimerFormulario.Show();
+            }
+            else
+            {
+                //Para que se ponga al frente si ya esta abierto
+                miPrimerFormulario.Activate();
+            }
+        }
     }
 }
