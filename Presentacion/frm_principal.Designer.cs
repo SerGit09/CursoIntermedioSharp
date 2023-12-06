@@ -38,6 +38,8 @@
             this.numericUpDownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.encuestaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.categoriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesoTotalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.proceso1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -51,6 +53,7 @@
             this.m_btn_01 = new System.Windows.Forms.ToolStripButton();
             this.m_btn_02 = new System.Windows.Forms.ToolStripButton();
             this.m_btn_03 = new System.Windows.Forms.ToolStripButton();
+            this.unidadesMedidasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.miMenu.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -78,7 +81,10 @@
             this.tiempoToolStripMenuItem,
             this.numericUpDownToolStripMenuItem,
             this.encuestaToolStripMenuItem,
-            this.dataGridViewToolStripMenuItem});
+            this.dataGridViewToolStripMenuItem,
+            this.toolStripSeparator2,
+            this.categoriasToolStripMenuItem,
+            this.unidadesMedidasToolStripMenuItem});
             this.datosMaestrosToolStripMenuItem.Name = "datosMaestrosToolStripMenuItem";
             this.datosMaestrosToolStripMenuItem.Size = new System.Drawing.Size(100, 20);
             this.datosMaestrosToolStripMenuItem.Text = "Datos Maestros";
@@ -127,6 +133,18 @@
             this.dataGridViewToolStripMenuItem.Name = "dataGridViewToolStripMenuItem";
             this.dataGridViewToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
             this.dataGridViewToolStripMenuItem.Text = "DataGridView";
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(215, 6);
+            // 
+            // categoriasToolStripMenuItem
+            // 
+            this.categoriasToolStripMenuItem.Name = "categoriasToolStripMenuItem";
+            this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.categoriasToolStripMenuItem.Text = "Categorias";
+            this.categoriasToolStripMenuItem.Click += new System.EventHandler(this.categoriasToolStripMenuItem_Click);
             // 
             // procesosToolStripMenuItem
             // 
@@ -237,6 +255,13 @@
             this.m_btn_03.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.m_btn_03.ToolTipText = "Elemento vacio";
             // 
+            // unidadesMedidasToolStripMenuItem
+            // 
+            this.unidadesMedidasToolStripMenuItem.Name = "unidadesMedidasToolStripMenuItem";
+            this.unidadesMedidasToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.unidadesMedidasToolStripMenuItem.Text = "Unidades Medidas";
+            this.unidadesMedidasToolStripMenuItem.Click += new System.EventHandler(this.unidadesMedidasToolStripMenuItem_Click);
+            // 
             // frm_principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -281,5 +306,8 @@
         private System.Windows.Forms.ToolStripButton m_btn_01;
         private System.Windows.Forms.ToolStripButton m_btn_02;
         private System.Windows.Forms.ToolStripButton m_btn_03;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem categoriasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem unidadesMedidasToolStripMenuItem;
     }
 }

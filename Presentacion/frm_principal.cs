@@ -14,6 +14,8 @@ namespace Presentacion
     {
         MiPrimerFormulario miPrimerFormulario;
         frm_trackbar frm_Trackbar;
+        Frm_Categorias frm_categoria;
+        frm_Unidades_Medidas frm_Unidad_Medida;
         public frm_principal()
         {
             InitializeComponent();
@@ -75,6 +77,48 @@ namespace Presentacion
                 //Para que se ponga al frente si ya esta abierto
                 miPrimerFormulario.Activate();
             }
+        }
+
+        private void categoriasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (frm_categoria == null)
+            {
+                frm_categoria = new Frm_Categorias();
+                frm_categoria.MdiParent = this;
+                frm_categoria.FormClosed += new FormClosedEventHandler(Alta_frm_categoria);
+                frm_categoria.Show();
+            }
+            else
+            {
+                //Para que se ponga al frente si ya esta abierto
+                frm_categoria.Activate();
+            }
+        }
+
+        void Alta_frm_categoria(object sender, EventArgs e)
+        {
+            frm_categoria = null;
+        }
+
+        private void unidadesMedidasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (frm_Unidad_Medida == null)
+            {
+                frm_Unidad_Medida = new frm_Unidades_Medidas();
+                frm_Unidad_Medida.MdiParent = this;
+                frm_Unidad_Medida.FormClosed += new FormClosedEventHandler(Alta_frm_Unidades_Medidas);
+                frm_Unidad_Medida.Show();
+            }
+            else
+            {
+                //Para que se ponga al frente si ya esta abierto
+                frm_Unidad_Medida.Activate();
+            }
+        }
+
+        void Alta_frm_Unidades_Medidas(object sender, EventArgs e)
+        {
+            frm_Unidad_Medida = null;
         }
     }
 }
